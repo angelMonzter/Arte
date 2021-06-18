@@ -15,7 +15,7 @@
     <header>
         <div id="header" class="grid-x">
             <div class="large-2 small-12 cell">
-                <img src="" alt="">
+                <img src="img/JLR_logo_footer.svg" width="100px" alt="">
             </div>
             <div class="large-10 small-12 cell">
                 <nav>

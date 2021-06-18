@@ -1,12 +1,114 @@
+/*estilos generales*/
+@import url();
+.sin_padding, .cell {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.sin_margin, .grid-x {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  max-width: none;
+  width: 100%;
+}
+
+/*estilos generales*/
+@font-face {
+  font-family: century;
+  src: url("../fonts/CenturyGothic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, p, a, div, span {
+  font-family: century;
+}
+
+.titulo_seccion {
+  margin: 40px 0;
+}
+.titulo_seccion .large-12 {
+  width: 80%;
+  margin: 0 auto;
+}
+.titulo_seccion .cell {
+  border-left: 4px solid #FFAA00;
+}
+.titulo_seccion .cell h2 {
+  font-size: 55px;
+  color: #707070;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+.titulo_seccion .cell h2 span {
+  font-size: 65px;
+}
+
 /*header*/
-div#header {
+header {
   position: fixed;
   width: 100%;
   height: 70px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+header #header {
+  width: 80%;
+  margin: 0 auto !important;
+}
+header #header ul {
+  margin-top: 15px;
+}
+header #header ul a {
+  color: #707070;
+  text-transform: uppercase;
+}
+header #header img {
+  margin-top: 10px;
 }
 
 /*header*/
 /*index*/
+div.index #banner .cell {
+  background-image: url(../img/video_inicio123.png);
+  height: 930px;
+  background-size: cover;
+  background-position: center;
+}
+div.index #banner .cell div {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+div.index #banner .cell div img {
+  width: 75%;
+}
+div.index #banner .cell div h1 {
+  color: white;
+  font-size: 40px;
+  letter-spacing: 12px;
+  text-shadow: 0px 3px 6px #000000BF;
+  margin-top: 40px;
+}
+div.index .contenedor_tarjetas {
+  width: 80%;
+  margin: 50px auto !important;
+}
+div.index .contenedor_tarjetas div h4 {
+  color: #FFAA00;
+  font-weight: 600;
+  margin-top: 10px;
+}
+div.index .contenedor_tarjetas div p {
+  color: #707070;
+}
+div.index .contenedor_tarjetas div img {
+  width: 100%;
+}
+div.index .contenedor_tarjetas .medium-6 {
+  padding: 0 20px !important;
+}
+
 /*index*/
 /*index*/
 /*index*/

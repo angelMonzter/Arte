@@ -2,14 +2,17 @@
     include_once('includes/header.php');
 ?>
 
-    <div class="grid-container index">
+    <div class="grid-container index sin_padding sin_margin">
 
         <!-- Banner -->
         <div id="banner" class="grid-x">
             <div class="large-12 cell">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quidem explicabo delectus vero corrupti nam facilis accusantium labore laudantium obcaecati.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quidem explicabo delectus vero corrupti nam facilis accusantium labore laudantium obcaecati.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quidem explicabo delectus vero corrupti nam facilis accusantium labore laudantium obcaecati.</p>
+                <div>
+                    <img src="img/JLR_logo_footer.svg" alt="">
+                </div>
+                <div>
+                    <h1>ARTISTA PLÁSTICO MEXIQUENSE</h1>
+                </div>
             </div>
         </div>
         <!-- Banner -->
@@ -17,84 +20,68 @@
         <!-- index seccion 1 -->
         <div class="grid-x grid-padding-x titulo_seccion">
             <div class="large-12 cell">
-                <h2>Lorem, ipsum dolor.</h2>
+                <h2>Lorem, ipsum dolor. <br> <span>Lorem, ipsum</span> </h2>
             </div>
         </div>
 
-        <div class="grid-x grid-padding-x">
-            <div class="large-4 medium-6 cell">
-                <div class="tarjeta ">
-                    <div class="imagen-tarjeta">
-                        <img src="" alt="">
+        <div class="grid-x grid-padding-x contenedor_tarjetas">
+            <div class="large-6 medium-6 cell">
+                <a href="#!">
+                    <div class="tarjeta">
+                        <div class="imagen-tarjeta">
+                            <img src="img/Obra_reciente_1.png" alt="">
+                        </div>
+                        <div class="texto-tarjeta">
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <p>Lorem ipsum dolor sit.</p>
+                            <hr>
+                        </div>
                     </div>
-                    <div class="texto-tarjeta">
-                        <h4>Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit.</p>
-                        <hr>
-                    </div>
-                </div>
+                </a>
             </div>
-            <div class="large-4 medium-6 cell">
-                <div class="tarjeta ">
-                    <div class="imagen-tarjeta">
-                        <img src="" alt="">
+            <div class="large-6 medium-6 cell">
+                <a href="#!">
+                    <div class="tarjeta">
+                        <div class="imagen-tarjeta">
+                            <img src="img/Obra_reciente_1.png" alt="">
+                        </div>
+                        <div class="texto-tarjeta">
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <p>Lorem ipsum dolor sit.</p>
+                            <hr>
+                        </div>
                     </div>
-                    <div class="texto-tarjeta">
-                        <h4>Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit.</p>
-                        <hr>
-                    </div>
-                </div>
-            </div>
-            <div class="large-4 medium-6 cell">
-                <div class="tarjeta ">
-                    <div class="imagen-tarjeta">
-                        <img src="" alt="">
-                    </div>
-                    <div class="texto-tarjeta">
-                        <h4>Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit.</p>
-                        <hr>
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
-        <div class="grid-x grid-padding-x">
-            <div class="large-4 medium-6 cell">
-                <div class="tarjeta ">
-                    <div class="imagen-tarjeta">
-                        <img src="" alt="">
+        <div class="grid-x grid-padding-x contenedor_tarjetas">
+            <div class="large-6 medium-6 cell">
+                <a href="#!">
+                    <div class="tarjeta">
+                        <div class="imagen-tarjeta">
+                            <img src="img/Obra_reciente_1.png" alt="">
+                        </div>
+                        <div class="texto-tarjeta">
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <p>Lorem ipsum dolor sit.</p>
+                            <hr>
+                        </div>
                     </div>
-                    <div class="texto-tarjeta">
-                        <h4>Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit.</p>
-                        <hr>
-                    </div>
-                </div>
+                </a>
             </div>
-            <div class="large-4 medium-6 cell">
-                <div class="tarjeta ">
-                    <div class="imagen-tarjeta">
-                        <img src="" alt="">
+            <div class="large-6 medium-6 cell">
+                <a href="#!">
+                    <div class="tarjeta">
+                        <div class="imagen-tarjeta">
+                            <img src="img/Obra_reciente_1.png" alt="">
+                        </div>
+                        <div class="texto-tarjeta">
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <p>Lorem ipsum dolor sit.</p>
+                            <hr>
+                        </div>
                     </div>
-                    <div class="texto-tarjeta">
-                        <h4>Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit.</p>
-                        <hr>
-                    </div>
-                </div>
-            </div>
-            <div class="large-4 medium-6 cell">
-                <div class="tarjeta ">
-                    <div class="imagen-tarjeta">
-                        <img src="" alt="">
-                    </div>
-                    <div class="texto-tarjeta">
-                        <h4>Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit.</p>
-                        <hr>
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
 
@@ -127,12 +114,26 @@
                 <hr>
             </div>
         </div>
+        <div class="grid-x grid-padding-x">
+            <div class="large-4 cell">
+                <h2>Lorem, ipsum dolor.</h2>
+            </div>
+            <div class="large-4 cell">
+                <h2>Lorem, ipsum dolor.</h2>
+            </div>
+            <div class="large-4 cell">
+                <h2>Lorem, ipsum dolor.</h2>
+            </div>
+        </div>
+        <div class="grid-x">
+            <hr>
+        </div>
         <!-- index seccion 3 -->
 
         <!-- index seccion 4 -->
         <div class="grid-x grid-padding-x titulo_seccion">
             <div class="large-12 cell">
-                <h2>Lorem, ipsum dolor.</h2>
+                <h2>Lorem, ipsum dolor. <br> <span>Lorem, ipsum</span> </h2>
             </div>
         </div>
 
